@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Section Titles */
+  section h2 {
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  
+  /* Project & Skills List */
+  section ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  section ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact */
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
