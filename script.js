@@ -30,36 +30,3 @@ const projects = [
   
     projectList.appendChild(card);
   });
-
-  #project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .project-card {
-    background: white;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
-    transition: transform 0.2s ease;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .project-card h3 {
-    margin-top: 0;
-  }
-  
-  .project-card a {
-    color: #007acc;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .project-card a:hover {
-    text-decoration: underline;
-  }
